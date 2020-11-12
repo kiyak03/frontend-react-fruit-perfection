@@ -11,11 +11,16 @@ function App() {
     <>
       <nav>
         <ul>
-          <li><a href="/">Shop</a></li>
-          <li><a href="/">Ons verhaal</a></li>
-          <li><a href="/">Blog</a></li>
+          <li>
+            <a href="/">Shop</a>
+          </li>
+          <li>
+            <a href="/">Ons verhaal</a>
+          </li>
+          <li>
+            <a href="/">Blog</a>
+          </li>
         </ul>
-        {/*navigatie*/}
         <ShoppingCart className="shopping-cart-icon" />
       </nav>
       <header>
